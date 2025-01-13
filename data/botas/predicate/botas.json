@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.feet": {
+        "items": "minecraft:leather_boots",
+        "components": {
+          "minecraft:unbreakable": {
+            "show_in_tooltip": true
+          },
+          "minecraft:rarity": "epic"
+        }
+      }
+    }
+  }
+}
